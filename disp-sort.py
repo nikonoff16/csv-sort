@@ -2,7 +2,7 @@ import csv
 import json
 import sys
 # import re
-
+# just another comment for deleting in the next session
 
 def find_all_people(file_obj, years_dict):   # Индекс нужен чтобы программа сама находила нужные поля в таблице.
     """
