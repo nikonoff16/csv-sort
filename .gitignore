@@ -1,0 +1,8 @@
+*.xls
+*.xlsx
+*.csv
+*.csv*
+__pycache__
+.vscode
+.idea/*
+.DS_Store
