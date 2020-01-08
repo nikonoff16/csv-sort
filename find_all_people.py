@@ -14,6 +14,7 @@ def find_all_people(file_obj, years_dict):  # Индекс нужен чтобы
     # Берем данные из json-конфига
     result = {}  # В этом словаре будут храниться результаты работы программы, он же и будет выводом функции
     for category in years_dict.keys():
+        
         result[category] = []
 
     # Настройка служебных переменных.

@@ -1,7 +1,11 @@
 *.xls
 *.xlsx
 *.csv
+*.ods
+*.ods*
 *.csv*
+*.xls*
+*.xlsx*
 __pycache__
 .vscode
 .idea/*
