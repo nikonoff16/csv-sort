@@ -65,7 +65,9 @@ def find_all_people(file_name, years_dict):
 def distribute_all_people(name, lst_csv, by_months):
     """
     Не функцция, а говна кусок. Переделать
-
+    TODO: если нет xlrm - создавать .csv списки
+    TODO: сделать рассчет индексов DF и по индексам (или разницам) конкатенировать новый список
+    TODO: отдельный json для всяких заголоков таблицы (или иную, динамическую, байду сделать)
     """
     lst_csv.to_excel(name + ".xls")
     return None
